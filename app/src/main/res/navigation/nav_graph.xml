@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_profile">
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.sayajunady.navigationdrawer.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/nav_message"
+        android:name="com.sayajunady.navigationdrawer.MessageFragment"
+        android:label="Message"
+        tools:layout="@layout/fragment_message" />
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.sayajunady.navigationdrawer.ShareFragment"
+        android:label="Share"
+        tools:layout="@layout/fragment_share" />
+</navigation>
